@@ -10,4 +10,8 @@ public class Animal {
 
     public String nume;
     public int varsta;
+
+    void print(){
+        System.out.println("Animal cu numele " + this.nume + " si varsta: " + this.varsta);
+    }
 }

@@ -8,4 +8,12 @@ public class Pasare extends Animal{
         System.out.println("Constructor Pasare");
         this.zboara = zboara;
     }
+
+    public Pasare(String nume, int varsta) {
+        this(nume, varsta, false);
+//        super(nume, varsta);
+        this.zboara = false;
+
+    }
+
 }
